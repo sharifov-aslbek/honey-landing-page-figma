@@ -1,0 +1,366 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    
+}
+
+body {
+    font-family: 'Kodchasan';
+}
+
+.contanier {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.header .contanier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .contanier .menu {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 15px;
+}
+
+.header .contanier .menu li {
+    list-style: none;
+}
+
+.header .contanier .menu li a {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.header .contanier .menu li .first-a {
+    font-weight: 700;
+}
+
+.section  {
+    margin-bottom: 100px;
+}
+
+.section .contanier {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: url(./images/section-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    width: 1400px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.section-img {
+    position: absolute;
+    top: 85px;
+}
+
+.section .contanier .block-right {
+    margin-left: 100px;
+}
+
+.section .contanier .block-right .text-section {
+    width: 558px;
+    font-size: 75px;
+    text-align: center;
+}
+
+.section .contanier .block-right .text-section h1:first-child {
+    text-align: left;
+}
+
+.section .contanier .block-right .text-section h1:last-child {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-section {
+    width: 586px;
+    height: 550px;
+    margin-left: 70px;
+}
+
+.section .contanier .block-right .text-section h1 .bea {
+    width: 189px;
+    height: 129px;
+}
+
+.section .contanier .block-right .btn button:first-child {
+    color: #fff;
+    background-color: black;
+    font-family: 'Kodchasan';
+    padding: 20px 50px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.section .contanier .block-right .btn button:last-child {
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    font-family: 'Kodchasan';
+    font-weight: 700;
+    padding: 20px 50px;
+    font-size: 18px;
+}
+
+
+.shops .contanier .title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+
+.shops .contanier .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.shops .contanier .menu li {
+    list-style: none;
+
+}
+
+.product {
+    margin-bottom: 200px;
+}
+
+.product .contanier {
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product .contanier .block-right {
+    margin-left: 40px;
+}
+
+.product .contanier .block-right .title {
+    width: 540px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.product .contanier .block-right .subtitle {
+    opacity: 70%;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.product .contanier .block-right .btn {
+    font-family: 'Kodchasan';
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+    background-color: #E58311;
+    padding: 15px 40px;
+    gap: 10px;
+}
+
+.product-bio .contanier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+}
+
+
+.product-bio .contanier .block-left .title {
+    width: 540px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.product-bio .contanier .block-left .subtitle {
+    width: 516px;
+    opacity: 70%;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.product-bio .contanier .block-left .btn {
+    font-family: 'Kodchasan';
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+    background-color: #E58311;
+    padding: 15px 40px;
+    gap: 10px;
+}
+
+
+.our-product .contanier {
+   
+}
+
+.our-product .contanier .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.our-product .contanier .header .title {
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.our-product .contanier .header .link {
+    font-size: 18px;
+    font-weight: 700;
+    color: #E58211;
+    line-height: 28.8px;
+}
+
+.our-product .contanier .two-products-bio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-product .contanier .two-products-bio .block-left {
+    width: 558px;
+    height: 305px;
+    background: url(./images/Rectangle\ 6.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-product .contanier .two-products-bio .block-left .block-text {
+    margin-left: 30px;
+}
+
+
+.our-product .contanier .two-products-bio .block-left .block-text .title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.our-product .contanier .two-products-bio .block-left .block-text .subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 70%;
+    margin: 20px 0px 30px;
+}
+
+.our-product .contanier .two-products-bio .block-left .block-text .btn {
+    color: #E58211;
+    border:2px solid #E58211;
+    background: 0;
+    font-family: 'Kodchasan';
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+
+
+.our-product .contanier .two-products-bio .block-right {
+    width: 558px;
+    height: 305px;
+    background: url(./images/Rectangle\ 6.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.our-product .contanier .two-products-bio .block-right .block-text {
+    margin-left: 30px;
+}
+
+
+.our-product .contanier .two-products-bio .block-right .block-text .title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.our-product .contanier .two-products-bio .block-right .block-text .subtitle {
+    width: 324px;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 70%;
+    margin: 20px 0px 30px;
+}
+
+.our-product .contanier .two-products-bio .block-right .block-text .btn {
+    color: #E58211;
+    border:2px solid #E58211;
+    background: 0;
+    font-family: 'Kodchasan';
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+.last-content  {
+    background-color: #FF9D2D;
+   
+}
+
+.last-content .contanier {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+   display: flex;
+   align-items: center;
+}
+.last-content .contanier .block-content {
+    display: flex;
+    align-items: center;
+}
+.last-content .contanier .block-content .apps {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.last-content .contanier .block-content .apps li {
+    list-style: none;
+}
+.last-content .contanier .block-content .subtitle {
+    width: 269px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-right: 88px;
+}
+
+.last-content .contanier .block-content .last-imgs {
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.last-content .contanier .block-content .last-imgs img:first-child {
+    margin-left: 177px;
+    margin-right: 20px;
+
+}
